@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header">
+    <div class="navbar">
+        <ul>
+            <li><a href="#hlp">Help</a></li>
+            <li><a href="Game/game.html">Game</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="main">
+    <h1>Welcome!!! <br>  Let's play an interesting Game</h1>
+    <img src="Game/GIF/wel_cartoon.gif" alt="image">
+    </div>
+
+    <div class="help" id="hlp">
+        <form  method="POST" action="connection.php">
+            <h1>Help</h1> <hr>
+            <br> 
+            <h3>Contact with us for help...</h3>
+            <br>
+            <label for="name"> Your Name:</label>
+            <input type="text" name="name"  required> 
+            <br> <br>
+            <label for="email">Email Address:</label>
+            <input type="text" name="email" required>  
+            <br> <br>
+            <label for="prob"> what's the problem? </label> <br> <br>
+            <textarea name="prob" class="prob" cols="30" rows="5" placeholder="write shortly about your problem... "></textarea>
+             <br> <br>
+            <input type="submit" name="submit" id="btn" >
+        </form>
+    </div>
+
+    <div class="footer">
+        <footer>
+            <h3>Guessing Game</h3>
+            <p>It's an interesting game. Hope you all enjoy it!!</p>
+            <p>Copyright &copy; by Fahima Taher Boishakhi</p>
+        </footer>
+    </div>
+</body>
+</html>
